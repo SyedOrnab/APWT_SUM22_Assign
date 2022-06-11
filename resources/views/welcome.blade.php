@@ -1,4 +1,4 @@
 @extends('layouts.loggedin')
 @section('content')
-<h1>Welcome Page</h1>
+<h1>Welcome</h1>
 @endsection
