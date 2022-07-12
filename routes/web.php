@@ -23,3 +23,4 @@ Route::get('/dashbord',[UserController::class,'details'])->name('student.details
 //Route::get('/user/details/{id}',[UserController::class,'create'])->name('student.create');
 Route::post('/register',[UserController::class,'userregistration'])->name('userregistration');
 Route::get('/user/details/{id}',[UserController::class,'ShowDetails'])->name('user.details');
+Route::post('/login',[UserController::class,'userlogin'])->name('user.login');

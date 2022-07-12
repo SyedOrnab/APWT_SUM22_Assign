@@ -1,6 +1,7 @@
 @extends('layouts.loggedin')
 @section('content')
 <form method="post" action="{{route('userregistration')}}">
+        
         {{@csrf_field()}}
         Name: <input type="text" name="name" value="{{old('name')}}" placeholder="Enter Name" ><br>
         @error('name')
